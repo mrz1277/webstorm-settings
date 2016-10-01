@@ -1,4 +1,7 @@
 <keymap version="1" name="Mac OS X 10.5+ copy" parent="Mac OS X 10.5+">
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="shift meta x" />
+  </action>
   <action id="ChooseDebugConfiguration">
     <keyboard-shortcut first-keystroke="shift meta r" />
   </action>
@@ -9,6 +12,7 @@
   <action id="Compare.Selected">
     <keyboard-shortcut first-keystroke="ctrl meta alt c" />
   </action>
+  <action id="Move" />
   <action id="Refresh" />
   <action id="Replace" />
   <action id="ReplaceInPath" />
@@ -20,6 +24,9 @@
   </action>
   <action id="Resume">
     <keyboard-shortcut first-keystroke="ctrl meta y" />
+  </action>
+  <action id="StepOver">
+    <keyboard-shortcut first-keystroke="f6" />
   </action>
   <action id="Stop">
     <keyboard-shortcut first-keystroke="meta period" />
